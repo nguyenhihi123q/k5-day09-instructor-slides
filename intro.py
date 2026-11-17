@@ -2,13 +2,13 @@
 def overview():
     rows = [
         ('Lab 9 · Đánh giá agent và phân tích lỗi',
-         '<p class="lede">LogiX-VN refund agent</p><h2>Agent làm tốt đến đâu?</h2><p>Tìm lỗi cụ thể và ngăn phiên bản có lỗi được đưa vào sử dụng.</p>',
+         '<p class="lede">LogiX-VN refund agent · Lớp 16:00–19:30</p><h2>Agent làm tốt đến đâu?</h2><p>Tìm lỗi cụ thể và ngăn phiên bản có lỗi được đưa vào sử dụng.</p>',
          'Chào mọi người, hôm nay mình xin giới thiệu về Lab 9, bài lab tập trung vào đánh giá agent và phân tích lỗi.'),
         ('Lab 8 và Lab 9',
          '<div class="grid grid-2"><div class="panel"><h3>Lab 8 · Xây dựng agent</h3><p>Xây dựng agent và kiểm tra agent có chạy được hay không.</p></div><div class="panel"><h3>Lab 9 · Đánh giá chất lượng</h3><p>Đánh giá agent làm tốt đến đâu, tìm các lỗi cụ thể và chặn phiên bản có lỗi trước khi merge.</p></div></div>',
          'Nếu Lab 8 giúp xây dựng agent và kiểm tra agent có chạy được hay không, thì Lab 9 giúp chúng ta đánh giá agent làm tốt đến đâu, tìm ra các lỗi cụ thể và ngăn phiên bản có lỗi được đưa vào sử dụng.'),
         ('Hai phần của bài lab',
-         '<div class="grid grid-2"><div class="panel"><h3>Phần 1 · Cơ bản · M0–M4</h3><p>Chuẩn bị dữ liệu, phân loại lỗi, kiểm tra mô hình chấm, viết bộ chấm và tạo cổng kiểm tra.</p><p><strong>60 điểm · Khuyến khích hoàn thành trên lớp</strong></p></div><div class="panel"><h3>Phần 2 · Nâng cao · M5–M7</h3><p>Kiểm tra theo nhóm yêu cầu, đánh giá độ ổn định và phát hiện báo cáo bị làm sai.</p><p><strong>40 điểm · Advanced 25 + Expert 15</strong></p></div></div>',
+         '<div class="grid grid-2"><div class="panel"><h3>Phần 1 · Cơ bản · M0–M4</h3><p>Chuẩn bị dữ liệu, phân loại lỗi, kiểm tra mô hình chấm, viết bộ chấm và tạo cổng kiểm tra.</p><p><strong>60 điểm · Hoàn thành trên lớp · 16:00–19:30</strong></p></div><div class="panel"><h3>Phần 2 · Nâng cao · M5–M7</h3><p>Kiểm tra theo nhóm yêu cầu, đánh giá độ ổn định và phát hiện báo cáo bị làm sai.</p><p><strong>40 điểm · Advanced 25 + Expert 15</strong></p></div></div>',
          'Bài lab được chia thành hai phần. Phần cơ bản từ M0 đến M4 chiếm 60 điểm và được khuyến khích hoàn thành trong buổi học. Phần tiếp theo từ M5 đến M7 gồm Advanced và Expert, giúp quy trình đánh giá đáng tin cậy hơn trong các tình huống phức tạp.'),
         ('Phần cơ bản · M0–M4',
          '<ol><li>Chuẩn bị môi trường và tạo bộ yêu cầu mẫu.</li><li>Phân loại những lỗi agent có thể mắc phải.</li><li>Kiểm tra độ tin cậy của mô hình dùng để chấm.</li><li>Viết các quy tắc chấm kết quả.</li><li>Xây dựng cổng kiểm tra tự động.</li></ol>',
