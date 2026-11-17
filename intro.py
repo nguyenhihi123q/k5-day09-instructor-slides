@@ -32,4 +32,4 @@ def overview():
          '<p class="lede">Mỗi lần chạy tạo bằng chứng cho quyết định merge.</p><ol><li>Chọn yêu cầu từ eval set và chạy agent.</li><li>Bộ chấm kiểm tra kết quả cùng dấu vết hoạt động.</li><li>Báo cáo tổng hợp kết quả qua các lượt chạy.</li><li>Cổng so sánh với baseline để cho qua hoặc chặn.</li></ol>',
          'Kết nối toàn bộ các bước thành một luồng. Sau phần giới thiệu, chúng ta bắt đầu checkpoint M0 để chuẩn bị môi trường và tạo dữ liệu.'),
     ]
-    return [dict(cp='INTRO',title=t,body=b,note=n,code='') for t,b,n in rows]
+    return [dict(cp='INTRO',title=t,body=b,note='',code='') for t,b,n in rows]
