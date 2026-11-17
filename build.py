@@ -58,7 +58,8 @@ intro.append(dict(cp='INTRO',title='Cách làm bài và phạm vi hoàn thành',
 slides = [s for s in slides if s['title'] not in intro_titles]
 intro[0]['title'] = 'Tổng quan Lab 9'
 intro[0]['body'] = '<p class="lede">Evaluation &amp; Failure Analysis</p><h2>Đánh giá agent hoàn tiền trước khi merge</h2><p>Phần 1 · Giới thiệu bài lab</p>'
-grouped=intro
+from intro import overview
+grouped=overview()
 for cp, (title, slot, task, output, done) in checkpoints.items():
     grouped.append(dict(cp=cp,title=f'Checkpoint {cp}: {title}',body=f'<p class="lede">{slot}</p><div class="grid grid-2"><div class="panel"><h3>Nhóm thực hiện</h3><p>{task}</p></div><div class="panel"><h3>Sản phẩm cần có</h3><p>{output}</p></div></div><p class="note"><strong>Điều kiện hoàn thành:</strong> {done}</p>',note='Giảng viên giới thiệu đầu ra trước khi hướng dẫn chi tiết. Nhấn P để bắt đầu đồng hồ khi nhóm bắt tay thực hành. Kiểm tra bằng chứng hoàn thành trước khi chuyển checkpoint.',code=''))
     grouped.extend(s for s in slides if s['cp']==cp)
